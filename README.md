@@ -102,7 +102,7 @@ wget https://raw.githubusercontent.com/Heavrnl/TelegramForwarder/refs/heads/main
 首次运行（需要验证）：
 
 ```bash
-docker-compose run -it telegram-forwarder
+docker-compose run --rm telegram-forwarder
 ```
 CTRL+C 退出容器
 
